@@ -3,7 +3,9 @@
 # Google Cloud 
 
 ## Project Description
-The project uses Terraform to define the infrastructure as code (IaC) for provisioning Virtual Private Cloud (VPC) networks and subnets in Google Cloud Platform. It allows for the creation of multiple VPCs and associated subnets, enabling the segregation of resources based on different use cases or environments.
+The project utilizes Terraform to define the infrastructure as code (IaC) for provisioning Virtual Private Cloud (VPC) networks and subnets, as well as Compute Engine Instances (Virtual Machines) in Google Cloud Platform. This setup facilitates the creation of multiple VPCs and associated subnets, enabling resource segregation based on distinct use cases or environments.
+
+Moreover, the Virtual Machines are provisioned using custom images created using Packer. This ensures that the Virtual Machines are built from a standardized and pre-configured image, streamlining deployment and enhancing consistency across the infrastructure.
 
 ## Features
 1. Automated creation of VPC networks and subnets
